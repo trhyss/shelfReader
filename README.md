@@ -1,9 +1,9 @@
 shelfReader
 ===========
 
-shelfReader is an application that helps speed-up and reduce errors with shelf reading.  It is written in Python3 and uses an SQLite database.  This software was designed to work with ExLibris Aleph.
+shelfReader is an application that helps speed-up and reduce errors with shelf reading.  It is written in Python3 and uses an SQLite database.  This software was designed to work with ExLibris Aleph v.20.
 
-To use sheflReader, you must export items records and create a database with two columns titled, 'barcode' and 'call'.  I use SQL Devloper to export the records and the SQLite manager addon in Firefox to create/ manage the database.
+To use shelfReader, you must export items records and create a database with three columns titled, 'barcode', 'call', and 'description'.  I use SQL Developer to export the records and the SQLite manager addon in Firefox to create/ manage the database.
 
 How shelfReader works:
   Scan the bar code of the first item you wish to shelf read.
