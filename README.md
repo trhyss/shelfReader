@@ -13,10 +13,10 @@ How shelfReader works:
   shelfReader again queries the database and retrieves the corresponding call number.
   This call number is parsed.
   The two parsed call numbers are compared and shelfReader returns an audible response depending on whether the two items    are shleved correctly with regard to each other.  The audible responses are as follows:
-      1-beep   -- the books is shelved correctly
-      2-beeps -- the book’s barcodes are identical
-      3-beeps – the book is miss-shelved
-      4-beeps (high, low, high, low)  -- the previous book is miss-shelved
+      1-beep   -- the books is shelved correctly;  
+      2-beeps -- the book’s barcodes are identical;  
+      3-beeps – the book is miss-shelved;  
+      4-beeps (high, low, high, low)  -- the previous book is miss-shelved;  
       1 long beep  -- the barcode is not in the database
 
   Continue scanning bar codes.
