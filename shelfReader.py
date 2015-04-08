@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-#add comment to check Gitub
+
 '''ShelfReader is an application that partially automates the process of
 shelf reading.
 Copyright (C) 2015  Parker O'Mara (pomar001@plattsburgh.edu)
